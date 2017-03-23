@@ -25,7 +25,11 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: "babel-loader"
+        use: "babel-loader"
+      },
+      {
+        test: /\.pug$/,
+        use: ["pug-loader"]
       }
     ]
   },
@@ -38,7 +42,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Project',
-      template: path.resolve('src/index.ejs'),
+      template: path.resolve('src/index.pug'),
       hash: true
     }),
     new ExtractTextPlugin({

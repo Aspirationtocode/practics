@@ -21,6 +21,11 @@ module.exports = {
           use: ['css-loader', 'stylus-loader'],
           publicPath: dist
         })
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
       }
     ]
   },

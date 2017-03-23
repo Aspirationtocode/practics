@@ -24,10 +24,17 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    contentBase: dist,
+    compress: true,
+    port: 3000,
+    stats: 'errors-only',
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Project',
-      template: path.resolve('src/index.ejs')
+      template: path.resolve('src/index.ejs'),
+      hash: true
     }),
     new ExtractTextPlugin({
       filename: 'app.css',

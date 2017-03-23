@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const dist = path.resolve('dist');
-const source = path.resolve('src/app.js');
+const source = path.resolve('src/scripts/index.js');
 
 module.exports = {
   entry: source,
@@ -32,7 +32,7 @@ module.exports = {
         use: ["pug-loader"]
       },
       {
-        test: /\.(svg|png|jpg)$/,
+        test: /\.(svg|png|jpg|ttf)$/,
         loader: 'url-loader'
       }
     ]
@@ -46,7 +46,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Project',
-      template: path.resolve('src/index.pug'),
+      template: path.resolve('src/views/index.pug'),
       hash: true
     }),
     new ExtractTextPlugin({

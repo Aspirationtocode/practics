@@ -1,0 +1,20 @@
+{
+  "name": "aspire-webpack",
+  "version": "1.0.0",
+  "description": "Webpack project starter kit",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "author": "Evgeny Kulazhskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.16.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "webpack": "^2.3.1"
+  }
+}

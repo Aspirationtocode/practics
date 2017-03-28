@@ -3,16 +3,32 @@ const webpack = require('webpack');
 const CssSourcemapPlugin = require('css-sourcemaps-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const browsers = require('./package').browsers;
+
+const autoprefixerBrowsers = [
+  'Android >= ' + browsers.android,
+	'Chrome >= ' + browsers.chrome,
+	'Firefox >= ' + browsers.firefox,
+	'Explorer >= ' + browsers.ie,
+	'iOS >= ' + browsers.ios,
+	'Opera >= ' + browsers.opera,
+	'Safari >= ' + browsers.safari
+].map(browser => `"${browser}"`);
+
+const autoprefixerLoader = `autoprefixer-loader?{browsers:[${autoprefixerBrowsers}]}`;
+const cssLoaders = ['style-loader', 'css-loader', autoprefixerLoader, 'stylus-loader'];
 
 const dist = path.join(__dirname, 'dist');
 const src = path.join(__dirname, 'src');
 
 const isProd = process.env.NODE_ENV === 'production';
-const devCss = ['style-loader', 'css-loader', 'stylus-loader'];
+
+const devCss = cssLoaders;
 const prodCss = ExtractTextPlugin.extract({
   fallback: 'style-loader',
-  use: ['css-loader', 'stylus-loader']
+  use: cssLoaders.slice(1)
 })
+
 const configCss = isProd ? prodCss : devCss;
 const sourcemap = isProd ? false : "source-map";
 
@@ -45,7 +61,7 @@ module.exports = {
 			},
 			{
 				test: /\.(eot|svg|ttf|woff|woff2)$/,
-				loader: 'file-loader?name=[name].[ext]&outputPath=fonts/&publicPath=fonts/'
+				use: 'file-loader?name=[name].[ext]&outputPath=fonts/&publicPath=fonts/'
 			}
 		]
 	},
@@ -61,7 +77,14 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'Project',
 			template: path.resolve('src/views/index.pug'),
-			hash: true
+			hash: true,
+      filename: 'index.html'
+		}),
+    new HtmlWebpackPlugin({
+			title: 'Project',
+			template: path.resolve('src/views/about.pug'),
+			hash: true,
+      filename: 'about.html'
 		}),
 		new ExtractTextPlugin({
 			filename: 'bundle.css',

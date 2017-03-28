@@ -1,3 +1,6 @@
+require('../views/index.pug');
+require('../views/about.pug');
+
 import css from '../styles/main.styl';
 
 import math from './modules/math';

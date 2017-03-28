@@ -1,4 +1,5 @@
 const path = require('path');
+const CssSourcemapPlugin = require('css-sourcemaps-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -40,6 +41,7 @@ module.exports = {
 			}
 		]
 	},
+	devtool: "source-map",
 	devServer: {
 		contentBase: __dirname + '/dist',
 		compress: true,
@@ -56,6 +58,7 @@ module.exports = {
 			filename: 'bundle.css',
 			disable: false,
 			allChunks: true
-		})
+		}),
+		new CssSourcemapPlugin()
 	]
 }

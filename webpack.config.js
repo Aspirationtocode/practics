@@ -6,7 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const browsers = require('./package').browsers;
 
 const autoprefixerBrowsers = [
-  'Android >= ' + browsers.android,
+	'Android >= ' + browsers.android,
 	'Chrome >= ' + browsers.chrome,
 	'Firefox >= ' + browsers.firefox,
 	'Explorer >= ' + browsers.ie,
@@ -25,8 +25,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const devCss = cssLoaders;
 const prodCss = ExtractTextPlugin.extract({
-  fallback: 'style-loader',
-  use: cssLoaders.slice(1)
+	fallback: 'style-loader',
+	use: cssLoaders.slice(1)
 })
 
 const configCss = isProd ? prodCss : devCss;
@@ -78,13 +78,13 @@ module.exports = {
 			title: 'Project',
 			template: path.resolve('src/views/index.pug'),
 			hash: true,
-      filename: 'index.html'
+			filename: 'index.html'
 		}),
-    new HtmlWebpackPlugin({
+		new HtmlWebpackPlugin({
 			title: 'Project',
 			template: path.resolve('src/views/about.pug'),
 			hash: true,
-      filename: 'about.html'
+			filename: 'about.html'
 		}),
 		new ExtractTextPlugin({
 			filename: 'bundle.css',
@@ -93,6 +93,6 @@ module.exports = {
 		}),
 		new CssSourcemapPlugin({disable: isProd}),
 		new webpack.HotModuleReplacementPlugin(),
-    new webpack.NamedModulesPlugin(),
+		new webpack.NamedModulesPlugin(),
 	]
 }

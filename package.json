@@ -4,7 +4,7 @@
   "description": "Webpack project starter kit",
   "scripts": {
     "dev": "webpack-dev-server",
-    "prod": "webpack -p"
+    "prod": "rimraf dist && webpack -p"
   },
   "author": "Evgeny Kulazhskiy",
   "license": "ISC",

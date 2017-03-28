@@ -1,4 +1,4 @@
-const css = require('../styles/main.styl');
+import css from '../styles/main.styl';
 
 import math from './modules/math';
 

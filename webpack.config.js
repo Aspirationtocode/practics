@@ -1,12 +1,23 @@
 const path = require('path');
+const webpack = require('webpack');
 const CssSourcemapPlugin = require('css-sourcemaps-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const dist = __dirname + '/dist';
+const dist = path.join(__dirname, 'dist');
+const src = path.join(__dirname, 'src');
+
+const isProd = process.env.NODE_ENV === 'production';
+const devCss = ['style-loader', 'css-loader', 'stylus-loader'];
+const prodCss = ExtractTextPlugin.extract({
+  fallback: 'style-loader',
+  use: ['css-loader', 'stylus-loader']
+})
+const configCss = isProd ? prodCss : devCss;
+const sourcemap = isProd ? false : "source-map";
 
 module.exports = {
-	context: __dirname + '/src',
+	context: src,
 	entry: './scripts/index.js',
 	output: {
 		path: dist,
@@ -17,10 +28,7 @@ module.exports = {
 			{
 				test: /\.styl$/,
 				exclude: /node_modules/,
-				use: ExtractTextPlugin.extract({
-					fallback: 'style-loader',
-					use: ['css-loader', 'stylus-loader']
-				})
+				use: configCss
 			},
 			{
 				test: /\.js$/,
@@ -32,7 +40,7 @@ module.exports = {
 				use: ["pug-loader"]
 			},
 			{
-				test: /\.(jpg)$/,
+				test: /\.(jpg|png|svg)$/,
 				use: "file-loader?name=[name].[ext]&outputPath=images/&publicPath=images/"
 			},
 			{
@@ -41,10 +49,11 @@ module.exports = {
 			}
 		]
 	},
-	devtool: "source-map",
+	devtool: sourcemap,
 	devServer: {
-		contentBase: __dirname + '/dist',
+		contentBase: dist,
 		compress: true,
+		hot: true,
 		port: 3000,
 		stats: 'errors-only',
 	},
@@ -56,9 +65,11 @@ module.exports = {
 		}),
 		new ExtractTextPlugin({
 			filename: 'bundle.css',
-			disable: false,
+			disable: isProd,
 			allChunks: true
 		}),
-		new CssSourcemapPlugin()
+		new CssSourcemapPlugin({disable: isProd}),
+		new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin(),
 	]
 }

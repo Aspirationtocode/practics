@@ -1,7 +1,11 @@
+include ../blocks/header/header
+include ../blocks/footer/footer
 doctype html
-html(lang="en")
-  head
-    title Main
-  body
-    h1 Main Pages
-    a(href="./about.html") About
+html(lang='ru')
+	include ./_head
+	body
+		h1 Main Pages
+		a(href="./about.html") About
+		+header()
+		+footer()
+		

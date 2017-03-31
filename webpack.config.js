@@ -57,11 +57,11 @@ module.exports = {
 			},
 			{
 				test: /\.(jpg|png|svg)$/,
-				use: "file-loader?name=[name].[ext]&outputPath=images/&publicPath=images/"
+				use: "file-loader?name=[name].[ext]&outputPath=images/"
 			},
 			{
 				test: /\.(eot|svg|ttf|woff|woff2)$/,
-				use: 'file-loader?name=[name].[ext]&outputPath=fonts/&publicPath=fonts/'
+				use: 'file-loader?name=[name].[ext]&outputPath=fonts/'
 			}
 		]
 	},

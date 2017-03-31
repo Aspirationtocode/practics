@@ -1,38 +1,43 @@
 {
-  "name": "aspire-webpack",
-  "version": "1.0.0",
-  "description": "Webpack project starter kit",
-  "scripts": {
-    "dev": "webpack-dev-server",
-    "prod": "rimraf ./dist/* && cross-env NODE_ENV=production webpack -p"
-  },
-  "author": "Evgeny Kulazhskiy",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer-loader": "^3.2.0",
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.2.2",
-    "cross-env": "^3.2.4",
-    "css-loader": "^0.27.3",
-    "css-sourcemaps-webpack-plugin": "^1.0.3",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "html-webpack-plugin": "^2.28.0",
-    "pug": "^2.0.0-beta11",
-    "pug-loader": "^2.3.0",
-    "style-loader": "^0.16.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
-    "webpack": "^2.3.1",
-    "webpack-dev-server": "^2.4.2"
-  },
-  "browsers": {
-    "android": 4,
-    "chrome": 42,
-    "firefox": 37,
-    "ie": 10,
-    "ios": 7,
-    "opera": 28,
-    "safari": 7
-  }
+	"name": "aspire-webpack",
+	"version": "1.0.0",
+	"description": "Webpack project starter kit",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/Aspirationtocode/aspire-webpack"
+	},
+	"scripts": {
+		"dev": "webpack-dev-server",
+		"prod": "rimraf ./dist/* && cross-env NODE_ENV=production webpack -p"
+	},
+	"author": "Evgeny Kulazhskiy",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer-loader": "^3.2.0",
+		"babel-core": "^6.24.0",
+		"babel-loader": "^6.4.1",
+		"babel-preset-env": "^1.2.2",
+		"cross-env": "^3.2.4",
+		"css-loader": "^0.27.3",
+		"css-sourcemaps-webpack-plugin": "^1.0.3",
+		"extract-text-webpack-plugin": "^2.1.0",
+		"html-webpack-plugin": "^2.28.0",
+		"pug": "^2.0.0-beta11",
+		"pug-loader": "^2.3.0",
+		"file-loader": "^0.11.0",
+		"style-loader": "^0.16.0",
+		"stylus": "^0.54.5",
+		"stylus-loader": "^3.0.1",
+		"webpack": "^2.3.1",
+		"webpack-dev-server": "^2.4.2"
+	},
+	"browsers": {
+		"android": 4,
+		"chrome": 42,
+		"firefox": 37,
+		"ie": 10,
+		"ios": 7,
+		"opera": 28,
+		"safari": 7
+	}
 }

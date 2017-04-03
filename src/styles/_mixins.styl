@@ -1,3 +1,10 @@
+// grid-template-areas
+g-template-areas(areas...)
+  final = ''
+  for area in areas
+    final += '"' + area + '" '
+  grid-template-areas unquote(final)
+
 // Центрирование по горизонтали блока заданной ширины
 container($width)
 	width $width

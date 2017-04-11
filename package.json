@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint ./src/scripts/**/*.js",
     "dev": "webpack-dev-server",
-    "prod": "rimraf ./dist/* && cross-env NODE_ENV=production webpack -p"
+    "prod": "rimraf ./dist/* && cross-env NODE_ENV=production webpack -p",
+    "validate": "npm ls"
   },
   "author": "Evgeny Kulazhskiy",
   "license": "ISC",
@@ -27,6 +28,7 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.0",
     "html-webpack-plugin": "^2.28.0",
+    "precommit-hook": "^3.0.0",
     "pug": "^2.0.0-beta11",
     "pug-loader": "^2.3.0",
     "style-loader": "^0.16.0",
@@ -43,5 +45,10 @@
     "ios": 7,
     "opera": 28,
     "safari": 7
-  }
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ]
 }

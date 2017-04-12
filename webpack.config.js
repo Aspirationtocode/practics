@@ -60,7 +60,7 @@ module.exports = {
 				use: "file-loader?name=[name].[ext]&outputPath=images/"
 			},
 			{
-				test: /\.(eot|svg|ttf|woff|woff2)$/,
+				test: /\.(eot|ttf|woff|woff2)$/,
 				use: 'file-loader?name=[name].[ext]&outputPath=fonts/'
 			}
 		]

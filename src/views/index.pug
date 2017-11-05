@@ -1,13 +1,9 @@
 include ../blocks/header/header
-include ../blocks/footer/footer
-include ../blocks/alex-puton/alex-puton
+include ../blocks/tabs-content/tabs-content
 doctype html
 html(lang='ru')
 	include ./_head
 	body
-		h1 Main Pages
-		a(href="./about.html") About
 		+header()
-		+footer()
-		+alex-puton(18)
-		+alex-puton(25)
+		+tabs-content()
+		

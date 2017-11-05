@@ -1,0 +1,78 @@
+.header-tabs
+	color #fff
+	position absolute
+	bottom 0
+	left 0
+	padding 0px 30px
+	width 100%
+	box-sizing border-box
+
+	@media screen and (max-width: 870px)
+		top 0
+		display -webkit-flex
+		display -ms-flex
+		display flex
+		align-items center
+		justify-content center
+
+	@media screen and (max-width: 900px)
+		padding 0 20px
+
+.header-elements
+	position relative
+	z-index 10
+	display -webkit-flex
+	display -ms-flex
+	display flex
+	justify-content space-between
+	align-items center
+	max-width 1000px
+	margin 0 auto
+
+	@media screen and (max-width: 1050px)
+		max-width 840px
+
+	@media screen and (max-width: 870px)
+		display none
+
+		&--mobiled
+			z-index 20
+			display flex
+			flex-direction column
+
+		&__element
+			border-radius 5px
+			width 80%
+			margin-bottom 8px
+
+
+			&:last-child
+				margin-bottom 0
+
+		@media screen and (max-width: 480px)
+			&__element
+				max-width 70%
+				margin-bottom 5px
+				font-size 14px
+
+
+	&__element
+		user-select none
+		text-align center
+		background-color alpha($mainDarkColor, .96)
+		transition all ease .15s
+		padding 12px 20px
+		font-size 16px
+		border-top-left-radius 5px
+		border-top-right-radius 5px
+
+		@media screen and (max-width: 1050px)
+			padding 6px 10px
+			font-size 15px
+
+		&--active
+			background-color #fff
+			color alpha($mainDarkColor, .96)
+
+		&:hover
+			cursor pointer

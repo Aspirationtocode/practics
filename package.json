@@ -48,5 +48,12 @@
   },
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "dependencies": {
+    "get-viewport-size": "^2.0.0",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1",
+    "jquery-ui-dist": "^1.12.1"
+  }
 }

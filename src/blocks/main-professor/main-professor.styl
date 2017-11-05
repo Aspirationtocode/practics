@@ -1,0 +1,44 @@
+$coeff = .8
+$coeffM= .6
+
+.main-professor
+	display -webkit-flex
+	display -ms-flex
+	display flex
+	margin-bottom 20px
+
+	&__image
+		image-bg("professors/petrov.png")
+		size(200px * $coeff, 300px * $coeff)
+		flex-shrink 0
+
+		@media screen and (max-width: 480px)
+			size(200px * $coeffM, 300px * $coeffM)
+
+	&__descr
+		@media screen and (max-width: 480px)
+			margin-bottom 20px
+
+	&__info
+		display -webkit-flex
+		display -ms-flex
+		display flex
+		margin-left 20px
+		flex-direction column
+		justify-content space-between
+
+		@media screen and (max-width: 480px)
+			margin-left 14px
+
+	&__position-1
+		padding 2px 0
+		font-size 14px
+		font-family PTSans-Italic
+
+	&__position-2
+		padding 2px 0
+		font-size 14px
+
+	&__contact
+		padding 2px 0
+		font-size 14px

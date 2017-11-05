@@ -1,0 +1,18 @@
+include ../text-header/text-header
+include ../main-text/main-text
+mixin main-professor()
+	.main-professor
+		.main-professor__image
+		.main-professor__info
+			.main-professor__descr
+				+text-header('Петров Андрей Борисович', true)
+				P.main-professor__position-1 зав. кафедрой
+				P.main-professor__position-2 профессор, доктор технических наук, почетный работник высшего образования Российской Федерации
+			.main-professor__contacts
+				P.main-professor__contact Проспект Вернадского, 78 
+				P.main-professor__contact ауд. Г-318
+				P.main-professor__contact Телефон: +7 499 215-65-65, доб. 5110 
+				P.main-professor__contact
+					| E-mail: 
+					a(href="mailto:petrov@mirea.ru") petrov@mirea.ru
+	

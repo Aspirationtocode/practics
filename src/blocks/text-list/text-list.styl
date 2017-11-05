@@ -1,0 +1,31 @@
+$textlistItemPadding = 3px
+
+.text-list
+	padding $textlistItemPadding 0
+	color $mainDarkColor
+
+	&__item
+		position relative
+		font-size 14px
+		margin-left 20px
+		margin-bottom 10px
+
+		@media screen and (max-width: 480px)
+			margin-left 14px
+
+		&:before
+			content ""
+			position absolute
+			left -19px
+			top 6px
+			height calc(100% - 12px)
+			width 4px
+			background-color alpha(#95989A, .8)
+
+			@media screen and (max-width: 480px)
+				left -13px
+				top 3px
+				height calc(100% - 6px)
+
+		&:last-child
+			margin-bottom 0

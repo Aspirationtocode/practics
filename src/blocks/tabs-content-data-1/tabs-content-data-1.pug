@@ -1,0 +1,39 @@
+include ../main-professor/main-professor
+include ../main-text/main-text
+include ../text-header/text-header
+include ../text-list/text-list
+include ../text-link/text-link
+mixin tabs-content-data-1()
+	.tabs-content-data-1
+		+main-professor()
+		+text-link("Положение о кафедре", "https://it.mirea.ru/upload/medialibrary/953/227.polozhenie-o-kafedre-kis.pdf")
+		+main-text(
+			[
+				"Кафедра корпоративных информационных систем (далее – КИС) была образована в 2010 году (приказ №450 от 03.09.2010).",
+				"Работа кафедры строится в соответствии с миссией, целью, видением и основными задачами, перечисленными в Положении о кафедре КИС (СМКО МИРЭА 6.4.03.П.02.40.8-16, в ред. от 27.04.2016) на основе годового плана работы, ежегодно утверждаемого заведующим кафедрой."
+			]
+		)
+		+main-text(
+			[
+				"Заведующим кафедрой КИС в 2010 году был избран доктор технических наук, профессор А.Б. Петров. В помещениях кафедры за счет средств ф-та ИТ было развернуто три современных компьютерных класса по 16 машин, объединенных локальной сетью и оснащенных системным и прикладным специализированным программным обеспечением. Один класс оборудован мультимедиакомплектом."
+			]
+		)
+		+main-text(
+			[
+				"В 2012 году за счет средств университета было закуплено, а также в рамках партнерских программ, получено дополнительное программное обеспечение, а в рамках создания образовательного центра с компанией Autodesk, все рабочие места были оснащены программным обеспечением, предоставляемым компанией Autodesk."
+			]
+		)
+		+text-header("На рабочих местах развернуто следующее программное обеспечение:")
+		+text-list(
+			[
+				`
+					Г-312: AutoCAD 2012 – Русский, AutoCAD Electrical 2012,Autodesk 3ds Max Design 2012 64-bit – English, Autodesk Inventor Professional 2012, AutoCAD Map 3D 2012 – Русский, Autodesk Industry Model Data Editor, AutoCAD Mechanical 2012, Autodesk Simulation Multiphysics 2012, OpenOffice.org 3.3, КОМПАС-3D LT V12, Делопроизводство 3.0, ESET NOD32 Antivirus Business Edition, Adobe Dream Weaver CS6 12.0, CorelCAD Academic VMware, Workstation 9;
+				`,
+				`
+					Г-414: AutoCAD 2012 – Русский, AutoCAD Electrical 2012,Autodesk 3ds Max Design 2012 64-bit – English, Autodesk Inventor Professional 2012, AutoCAD Map 3D 2012 – Русский, Autodesk Industry Model Data Editor, AutoCAD Mechanical 2012, Autodesk Simulation Multiphysics 2012, OpenOffice.org 3.3, КОМПАС-3D LT V12, Делопроизводство 3.0, ESET NOD32 Antivirus Business Edition, Adobe Dream Weaver CS6 12.0, CorelCAD Academic VMware, Workstation 9, Lazarus IDE, Microsoft Office 2007, Microsoft Visual Studio 2012, IBM Rational Rose Enterprise Edition, КОМПАС-3D LT V12;
+				`,
+				`
+					Г-111: AutoCAD 2012 – Русский, AutoCAD Electrical 2012,Autodesk 3ds Max Design 2012 64-bit – English, Autodesk Inventor Professional 2012, AutoCAD Map 3D 2012 – Русский, Autodesk Industry Model Data Editor, AutoCAD Mechanical 2012, Autodesk Simulation Multiphysics 2012, OpenOffice.org 3.3, КОМПАС-3D LT V12, Делопроизводство 3.0, ESET NOD32 Antivirus Business Edition, Adobe Dream Weaver CS6 12.0, CorelCAD Academic VMware, Workstation 9, Lazarus IDE, Microsoft Office 2007, Microsoft Visual Studio 2012, IBM Rational Rose Enterprise Edition, КОМПАС-3D LT V12, CA Erwin Process Modeler r7.3.
+				`
+			]
+		)

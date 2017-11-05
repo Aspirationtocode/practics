@@ -1,0 +1,28 @@
+.tabs-content-element
+	position absolute
+	top 0
+	left 0
+	padding 20px
+	opacity 0
+	pointer-events none
+	transition linear .2s
+	transform translateX(-20px)
+	transition-property transform, opacity
+	color $mainDarkColor
+
+	@media screen and (max-width: 480px)
+		padding 20px 14px
+
+	&--active
+		opacity 1
+		pointer-events auto
+		transform translateX(0px)
+
+.tabs-content-inner
+	position relative
+	padding 20px
+
+.tabs-content
+	position relative
+	max-width 1200px
+	margin 0 auto

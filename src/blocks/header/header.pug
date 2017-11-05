@@ -1,3 +1,17 @@
+include ../header-tabs/header-tabs
 mixin header()
 	.header
-		.header__intro header__intro
+		.header-open-mobile-menu
+		.header-overlay
+		.header-circle
+			.header-circle__logo-mirea
+		.header-labels
+			A.header-labels__label.header-labels__label--1(href="https://www.mirea.ru/")
+				| Московский Технологический
+				br
+				| Университет
+			A.header-labels__label.header-labels__label--2(href="https://it.mirea.ru/")
+				| Институт Информационных
+				br
+				| Технологий 
+		+header-tabs()

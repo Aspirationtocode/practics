@@ -1,0 +1,6 @@
+mixin stuff-person(name, position1, position2, imageModificator)
+	.stuff-person
+		div(class=`stuff-person__photo stuff-person__photo--${imageModificator ? imageModificator : "nophoto"}`)
+		.stuff-person__name= name
+		.stuff-person__position-1= position1
+		.stuff-person__position-2= position2

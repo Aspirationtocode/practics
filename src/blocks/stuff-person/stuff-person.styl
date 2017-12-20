@@ -1,0 +1,59 @@
+.stuff-persons
+	display -webkit-flex
+	display -ms-flex
+	display flex
+	justify-content space-between
+	flex-wrap wrap
+
+.stuff-person
+	flex-basis 33.33333%
+	display -webkit-flex
+	display -ms-flex
+	display flex
+	flex-direction column
+	align-items center
+	margin-bottom 20px
+
+	@media screen and (max-width: 870px)
+		flex-basis 50%
+
+	@media screen and (max-width: 480px)
+		flex-basis 100%
+		margin-bottom 20px
+
+	&__photo
+		width 80%
+		height 300px
+		margin-bottom 10px
+		&--andrianova
+			image-bg("professors/andrianova.jpg")
+		&--petrov
+			image-bg("professors/petrov.png")
+		&--shemonchuk
+			image-bg("professors/shemonchuk.jpg")
+		&--tomashevskaya
+			image-bg("professors/tomashevskaya.jpg")
+		&--trokhachenkova
+			image-bg("professors/trokhachenkova.jpg")
+		&--bagrov
+			image-bg("professors/bagrov.jpg")
+		&--nophoto
+			image-bg("professors/noavatar.png")
+			background-size 70% auto
+			background-repeat no-repeat
+			background-position 50% 50%
+			background-color #efefef
+
+	&__name
+		font-family PTSans-Bold
+		font-size 16px
+		text-align center
+
+	&__position-1
+		font-family PTSans-Italic
+		font-size 16px
+		text-align center
+
+	&__position-2
+		font-size 16px
+		text-align center

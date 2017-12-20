@@ -4,6 +4,7 @@ $textlistItemPadding = 3px
 	padding $textlistItemPadding 0
 	color $mainDarkColor
 
+
 	&__item
 		position relative
 		font-size 14px
@@ -29,3 +30,24 @@ $textlistItemPadding = 3px
 
 		&:last-child
 			margin-bottom 0
+
+
+.text-list--regular
+	margin-left 20px
+
+.text-list--regular .text-list__item
+	margin-bottom 5px
+	list-style-type disc
+
+	&:before
+		display none
+
+.text-list--numeric
+	margin-left 20px
+
+.text-list--numeric .text-list__item
+	margin-bottom 5px
+	list-style-type decimal
+
+	&:before
+		display none

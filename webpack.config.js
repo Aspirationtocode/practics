@@ -87,12 +87,6 @@ module.exports = {
 			options: docs,
 			filename: 'index.html'
 		}),
-		new HtmlWebpackPlugin({
-			title: 'Project',
-			template: path.resolve('src/views/about.pug'),
-			hash: true,
-			filename: 'about.html'
-		}),
 		new ExtractTextPlugin({
 			filename: 'bundle.css',
 			disable: isProd,

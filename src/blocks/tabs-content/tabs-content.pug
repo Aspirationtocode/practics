@@ -1,5 +1,9 @@
 include ../tabs-content-data-1/tabs-content-data-1
 include ../tabs-content-data-documents/tabs-content-data-documents
+include ../tabs-content-data-history/tabs-content-data-history
+include ../tabs-content-data-mto/tabs-content-data-mto
+include ../tabs-content-data-teach-work/tabs-content-data-teach-work
+include ../tabs-content-data-stuff/tabs-content-data-stuff
 mixin tabs-content(documentsData)
 	.tabs-content
 		.tabs-content-inner
@@ -7,13 +11,17 @@ mixin tabs-content(documentsData)
 				.tabs-content-data
 					+tabs-content-data-1()
 			.tabs-content-element.tabs-content-element--2
-				.tabs-content-data Content 2
+				.tabs-content-data
+					+tabs-content-data-history()
 			.tabs-content-element.tabs-content-element--3
-				.tabs-content-data Content 3
+				.tabs-content-data
+					+tabs-content-data-mto()
 			.tabs-content-element.tabs-content-element--4
-				.tabs-content-data Content 4
+				.tabs-content-data
+					+tabs-content-data-teach-work()
 			.tabs-content-element.tabs-content-element--5
-				.tabs-content-data Content 5
+				.tabs-content-data
+					+tabs-content-data-stuff()
 			.tabs-content-element.tabs-content-element--6
 				.tabs-content-data
 					+tabs-content-data-documents(documentsData)

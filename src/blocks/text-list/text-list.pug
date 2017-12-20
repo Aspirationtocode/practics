@@ -1,4 +1,9 @@
-mixin text-list(listArr)
-	UL.text-list
-		each listItem, i in listArr
-			LI.text-list__item= listItem
+mixin text-list(listArr, isRegular, isNumeric)
+	if isNumeric
+		OL(class=`text-list ${isRegular ? "text-list--regular" : ""} ${isNumeric ? "text-list--numeric" : ""}`)
+			each listItem, i in listArr
+				LI.text-list__item= listItem
+	else
+		UL(class=`text-list ${isRegular ? "text-list--regular" : ""} ${isNumeric ? "text-list--numeric" : ""}`)
+			each listItem, i in listArr
+				LI.text-list__item= listItem

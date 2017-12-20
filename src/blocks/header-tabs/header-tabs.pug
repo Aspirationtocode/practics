@@ -1,10 +1,9 @@
 mixin header-tabs()
-	- var elements = ['О кафедре', 'История', 'Материально-техническое обеспечение', 'Учебная работа', 'Научная работа', 'Сотрудники'];
+	- var elements = ['О кафедре', 'История', 'Материально-техническое обеспечение', 'Учебная работа', 'Сотрудники', 'Научная работа'];
 	.header-tabs
 		UL.header-elements
 			each el, i in elements
 				- if (el === 'О кафедре')
 					LI.header-elements__element(data-tab=`${i + 1}`).header-elements__element--active= el
-				- else 
+				- else
 					LI.header-elements__element(data-tab=`${i + 1}`)= el
-	

@@ -1,0 +1,88 @@
+.dropdown-menu
+	user-select none
+	color #fff
+	position relative
+
+	&--base
+		&:before
+			content ""
+			position absolute
+			height 10000px
+			width 100%
+			background-color red
+			background linear-gradient(
+				to bottom,
+				rgba(68,68,68,0.96),
+				rgba(68,68,68,0.96) 50%,
+				rgba(90,90,90,0.96) 50%,
+				rgba(90,90,90,0.96)
+			)
+			background-size 100% 76px
+
+.dropdown-menu-header
+	padding 5px 10px
+	padding-left 30px
+	position relative
+
+
+	&--active
+		&:before
+			transform rotate(180deg)
+
+	&:before
+		content ""
+		size(30px)
+		image-bg("icons/arrow-down.svg")
+		position absolute
+		top 4px
+		left 0
+		opacity .8
+		transition transform ease .2s
+
+
+	&:hover
+		cursor pointer
+
+.dropdown-menu-elements
+	display none
+	position relative
+	left 25px
+
+.dropdown-menu-elements--active
+	display block
+
+
+
+a.dropdown-menu-el, a.dropdown-menu-el:hover, a.dropdown-menu-el:active
+	position relative
+	color #fff
+	text-decoration none
+	display block
+	padding-left 0
+	margin-left 25px
+	white-space nowrap
+	font-size 15px
+	height 38px
+	display -webkit-flex
+	display -ms-flex
+	display flex
+	align-items center
+
+a.dropdown-menu-el
+	position relative
+	overflow hidden
+	&:after
+		position absolute
+		content ""
+		bottom 2px
+		left 10px
+		height 2px
+		background-color #fff
+		transform translateX(-110%)
+		transition transform .6s ease
+		width 100%
+
+a.dropdown-menu-el:hover
+	cursor pointer
+	&:after
+		transform translateX(-10%)

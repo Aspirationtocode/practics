@@ -32,6 +32,8 @@ const prodCss = ExtractTextPlugin.extract({
 const configCss = isProd ? prodCss : devCss;
 const sourcemap = isProd ? false : "source-map";
 
+const docs = require("./docs");
+
 module.exports = {
 	context: src,
 	entry: './scripts/index.js',
@@ -60,6 +62,10 @@ module.exports = {
 				use: "file-loader?name=[name].[ext]&outputPath=images/"
 			},
 			{
+        test: /\.(pdf|doc|docx)$/,
+        use: 'file-loader?name=[name].[ext]&outputPath=docs/',
+      },
+			{
 				test: /\.(eot|ttf|woff|woff2)$/,
 				use: 'file-loader?name=[name].[ext]&outputPath=fonts/'
 			}
@@ -78,6 +84,7 @@ module.exports = {
 			title: 'Project',
 			template: path.resolve('src/views/index.pug'),
 			hash: true,
+			options: docs,
 			filename: 'index.html'
 		}),
 		new HtmlWebpackPlugin({

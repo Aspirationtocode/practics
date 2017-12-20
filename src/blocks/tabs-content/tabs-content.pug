@@ -1,5 +1,6 @@
 include ../tabs-content-data-1/tabs-content-data-1
-mixin tabs-content()
+include ../tabs-content-data-documents/tabs-content-data-documents
+mixin tabs-content(documentsData)
 	.tabs-content
 		.tabs-content-inner
 			.tabs-content-element.tabs-content-element--active.tabs-content-element--1
@@ -14,4 +15,5 @@ mixin tabs-content()
 			.tabs-content-element.tabs-content-element--5
 				.tabs-content-data Content 5
 			.tabs-content-element.tabs-content-element--6
-				.tabs-content-data Content 6
+				.tabs-content-data
+					+tabs-content-data-documents(documentsData)

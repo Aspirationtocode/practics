@@ -4,6 +4,6 @@ doctype html
 html(lang='ru')
 	include ./_head
 	body
+		- const documentsData = htmlWebpackPlugin.options
 		+header()
-		+tabs-content()
-		
+		+tabs-content(documentsData)

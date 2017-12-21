@@ -47,6 +47,7 @@
 	display none
 	position relative
 	left 25px
+	width calc(100% - 25px)
 
 .dropdown-menu-elements--active
 	display block
@@ -68,7 +69,7 @@ a.dropdown-menu-el, a.dropdown-menu-el:hover, a.dropdown-menu-el:active
 
 a.dropdown-menu-el
 	position relative
-	overflow-y scroll
+	overflow-y auto
 	&:after
 		position absolute
 		content ""

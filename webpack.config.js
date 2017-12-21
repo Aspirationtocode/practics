@@ -16,6 +16,41 @@ const autoprefixerBrowsers = [
 ].map(browser => `"${browser}"`);
 
 const autoprefixerLoader = `autoprefixer-loader?{browsers:[${autoprefixerBrowsers}]}`;
+
+const imageOptimizeConfig = [
+  'file-loader?name=[name].[ext]&outputPath=images/',
+  {
+    loader: 'image-webpack-loader',
+    query: {
+      mozjpeg: {
+        quality: 65,
+      },
+      pngquant: {
+        quality: '60-90',
+        speed: 4,
+      },
+      svgo: {
+        plugins: [
+          {
+            removeViewBox: false,
+          },
+          {
+            removeEmptyAttrs: false,
+          },
+        ],
+      },
+      gifsicle: {
+        optimizationLevel: 7,
+        interlaced: false,
+      },
+      optipng: {
+        optimizationLevel: 7,
+        interlaced: false,
+      },
+    },
+  },
+];
+
 const cssLoaders = ['style-loader', 'css-loader', autoprefixerLoader, 'stylus-loader'];
 
 const dist = path.join(__dirname, 'dist');
@@ -59,7 +94,7 @@ module.exports = {
 			},
 			{
 				test: /\.(jpg|png|svg)$/,
-				use: "file-loader?name=[name].[ext]&outputPath=images/"
+				use: isProd ? imageOptimizeConfig : imageOptimizeConfig.slice(0, 1),
 			},
 			{
         test: /\.(pdf|doc|docx)$/,

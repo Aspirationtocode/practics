@@ -13,6 +13,7 @@
 	flex-direction column
 	align-items center
 	margin-bottom 20px
+	transition all linear .2s
 
 	@media screen and (max-width: 870px)
 		flex-basis 50%
@@ -25,20 +26,61 @@
 		width 80%
 		height 300px
 		margin-bottom 10px
+		transition filter ease .3s
+		filter saturate(60%)
+
+		@media screen and (max-width: 560px)
+			height 260px
+
+		@media screen and (max-width: 480px)
+			height 320px
+
+
+		&:hover
+			cursor pointer
+			filter saturate(100%)
+
 		&--andrianova
 			image-bg("professors/andrianova.jpg")
+
 		&--petrov
 			image-bg("professors/petrov.png")
-		&--shemonchuk
-			image-bg("professors/shemonchuk.jpg")
+
+		&--panov
+			image-bg("professors/panov.jpg")
+
+		&--nemenko
+			image-bg("professors/nemenko.jpg")
+
+		&--aldobaeva
+			image-bg("professors/aldobaeva.jpg")
+
+		&--bashlykova
+			image-bg("professors/bashlykova.jpg")
+
 		&--tomashevskaya
 			image-bg("professors/tomashevskaya.jpg")
+
 		&--trokhachenkova
 			image-bg("professors/trokhachenkova.jpg")
+
 		&--bagrov
 			image-bg("professors/bagrov.jpg")
+
+		&--proshaeva
+			image-bg("professors/proshaeva.jpg")
+			background-position -35px 0
+
+		&--mirzoyan
+			image-bg("professors/mirzoyan.jpg")
+			background-position -35px 0
+
+		&--davydov
+			image-bg("professors/davydov.jpg")
+
 		&--nophoto
 			image-bg("professors/noavatar.png")
+
 			background-size 70% auto
 			background-repeat no-repeat
 			background-position 50% 50%

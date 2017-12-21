@@ -1,10 +1,12 @@
 include ../blocks/header/header
 include ../blocks/tabs-content/tabs-content
+include ../blocks/footer/footer
 doctype html
 html(lang='ru')
 	include ./_head
 	body
 		- const documentsData = htmlWebpackPlugin.options
-		+header()
-		+tabs-content(documentsData)
-		div footer
+		.content-wrapper
+			+header()
+			+tabs-content(documentsData)
+			+footer()

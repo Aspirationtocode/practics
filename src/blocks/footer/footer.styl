@@ -1,0 +1,29 @@
+.footer
+	position absolute
+	bottom 0
+	left 0
+	height 160px
+	image-bg("bg-header.png")
+	background-attachment fixed
+	background-position 0 0
+	width calc(100% - 40px)
+	display -webkit-flex
+	display -ms-flex
+	display flex
+	justify-content center
+	align-items center
+	padding 20px
+
+	&__text
+		position relative
+		color #fff
+		text-align center
+
+	&:before
+		content ""
+		background-color rgba(18, 18, 18, 0.8)
+		position absolute
+		top 0
+		left 0
+		height 100%
+		width 100%

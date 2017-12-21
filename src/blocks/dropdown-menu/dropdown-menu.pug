@@ -2,10 +2,10 @@ mixin dropdown-menu(docs)
 	- const d = docs.options
 	.dropdown-menu.dropdown-menu--base
 		.dropdown-menu-header Документы
-		.dropdown-menu-elements
+		.dropdown-menu-elements.dropdown-menu-elements--active
 			.dropdown-menu
 				.dropdown-menu-header 1 курс
-				.dropdown-menu-elements
+				.dropdown-menu-elements.dropdown-menu-elements--active
 					.dropdown-menu
 						.dropdown-menu-header 1 семестр
 						.dropdown-menu-elements
@@ -17,7 +17,7 @@ mixin dropdown-menu(docs)
 							A.dropdown-menu-el(href=`./docs/${d[3]}` download)= d[3]
 			.dropdown-menu
 				.dropdown-menu-header 2 курс
-				.dropdown-menu-elements
+				.dropdown-menu-elements.dropdown-menu-elements--active
 					.dropdown-menu
 						.dropdown-menu-header 3 семестр
 						.dropdown-menu-elements
@@ -35,7 +35,7 @@ mixin dropdown-menu(docs)
 							A.dropdown-menu-el(href=`./docs/${d[12]}` download)= d[12]
 				.dropdown-menu
 					.dropdown-menu-header 3 курс
-					.dropdown-menu-elements
+					.dropdown-menu-elements.dropdown-menu-elements--active
 						.dropdown-menu
 							.dropdown-menu-header 5 семестр
 							.dropdown-menu-elements
@@ -63,7 +63,7 @@ mixin dropdown-menu(docs)
 								A.dropdown-menu-el(href=`./docs/${d[31]}` download)= d[31]
 				.dropdown-menu
 					.dropdown-menu-header 4 курс
-					.dropdown-menu-elements
+					.dropdown-menu-elements.dropdown-menu-elements--active
 						.dropdown-menu
 							.dropdown-menu-header 7 семестр
 							.dropdown-menu-elements

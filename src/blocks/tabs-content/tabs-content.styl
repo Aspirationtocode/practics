@@ -11,15 +11,17 @@
 	transition-property transform, opacity
 	color $mainDarkColor
 	padding-bottom 20px
+	display none
 
 	@media screen and (max-width: 480px)
 		padding 20px 14px
 		width calc(100% - 28px)
 
 	&--active
-		opacity 1
+		display block
 		pointer-events auto
-		transform translateX(0px)
+		animation slidein .3s ease .2s
+		animation-fill-mode forwards
 
 .tabs-content-inner
 	position relative
@@ -30,3 +32,12 @@
 	max-width 1200px
 	margin 0 auto
 	padding-bottom 200px
+
+
+@keyframes slidein
+	from
+		opacity 0
+		transform translateX(-20px)
+	to
+		opacity 1
+		transform translateX(0px)

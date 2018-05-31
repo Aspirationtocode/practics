@@ -10,7 +10,8 @@
     "lint": "eslint ./src/scripts/**/*.js",
     "dev": "webpack-dev-server",
     "prod": "rimraf ./dist/* && cross-env NODE_ENV=production webpack -p",
-    "validate": "npm ls"
+    "validate": "npm ls",
+    "gen": "node src/treeGenerator"
   },
   "author": "Evgeny Kulazhskiy",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.2.2",
+    "contents-loader": "^1.0.0",
     "cross-env": "^3.2.4",
     "css-loader": "^0.27.3",
     "css-sourcemaps-webpack-plugin": "^1.0.3",
@@ -46,8 +48,14 @@
     "safari": 7
   },
   "dependencies": {
+    "classnames": "^2.2.5",
+    "directory-tree": "^2.1.0",
+    "escape-html": "^1.0.3",
     "get-viewport-size": "^2.0.0",
+    "html5-tag": "^0.3.0",
     "image-webpack-loader": "^3.4.2",
-    "jquery": "^3.2.1"
+    "infinite-tree": "^1.16.0",
+    "jquery": "^3.2.1",
+    "pretty-json-stringify": "0.0.2"
   }
 }

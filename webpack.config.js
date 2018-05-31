@@ -84,6 +84,10 @@ module.exports = {
 				use: configCss
 			},
 			{
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      },
+			{
 				test: /\.js$/,
 				exclude: /node_modules/,
 				use: "babel-loader"
@@ -97,7 +101,7 @@ module.exports = {
 				use: isProd ? imageOptimizeConfig : imageOptimizeConfig.slice(0, 1),
 			},
 			{
-        test: /\.(pdf|doc|docx)$/,
+        test: /\.(pdf|doc|docx|xps|exe)$/,
         use: 'file-loader?name=[name].[ext]&outputPath=docs/',
       },
 			{

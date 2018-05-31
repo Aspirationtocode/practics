@@ -1,0 +1,1339 @@
+{
+    "path" : "src/static/data/Документы",
+    "name" : "Документы",
+    "children" : [
+        {
+            "path" : "src/static/data/Документы/По предметам",
+            "name" : "По предметам",
+            "children" : [
+                {
+                    "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ",
+                    "name" : "ИБ и ЗИ",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Лекция №1. Основные термины и определения в области информационной безопасности и защиты информации..xps",
+                            "name" : "Лекция №1. Основные термины и определения в области информационной безопасности и защиты информации..xps",
+                            "size" : 436027,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Лекция №2. Вредоносные программы и их классификация..xps",
+                            "name" : "Лекция №2. Вредоносные программы и их классификация..xps",
+                            "size" : 497999,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Лекция №3. Законодательный уровень информационной безопасности..xps",
+                            "name" : "Лекция №3. Законодательный уровень информационной безопасности..xps",
+                            "size" : 461034,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Лекция №4. Стандарты и спецификации в области информационной безопасности..xps",
+                            "name" : "Лекция №4. Стандарты и спецификации в области информационной безопасности..xps",
+                            "size" : 499628,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Лекция №7. Защита информации в информационных системах и компьютерных сетях..xps",
+                            "name" : "Лекция №7. Защита информации в информационных системах и компьютерных сетях..xps",
+                            "size" : 479177,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Лекция №8. Технологии и инструменты обеспечения безопасности информации в системах и сетях..xps",
+                            "name" : "Лекция №8. Технологии и инструменты обеспечения безопасности информации в системах и сетях..xps",
+                            "size" : 572601,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Лекция №9. Обеспечение интегральной безопасности информационных систем и сетей..xps",
+                            "name" : "Лекция №9. Обеспечение интегральной безопасности информационных систем и сетей..xps",
+                            "size" : 515467,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Практическая работа № 1.xps",
+                            "name" : "Практическая работа № 1.xps",
+                            "size" : 438964,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Практическая работа № 2.xps",
+                            "name" : "Практическая работа № 2.xps",
+                            "size" : 415959,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Практическая работа № 3.xps",
+                            "name" : "Практическая работа № 3.xps",
+                            "size" : 446009,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ИБ и ЗИ/Практическая работа № 4.xps",
+                            "name" : "Практическая работа № 4.xps",
+                            "size" : 426792,
+                            "extension" : ".xps",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 5189657,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/Информационные сети",
+                    "name" : "Информационные сети",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Информационные сети/Книги",
+                            "name" : "Книги",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Книги/networks.pdf",
+                                    "name" : "networks.pdf",
+                                    "size" : 10561285,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 10561285,
+                            "type" : "directory"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции",
+                            "name" : "Лекции",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L1.docx",
+                                    "name" : "L1.docx",
+                                    "size" : 15354,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L11.pdf",
+                                    "name" : "L11.pdf",
+                                    "size" : 265987,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L2.docx",
+                                    "name" : "L2.docx",
+                                    "size" : 158391,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L21.pdf",
+                                    "name" : "L21.pdf",
+                                    "size" : 304424,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L3.docx",
+                                    "name" : "L3.docx",
+                                    "size" : 46546,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L31.pdf",
+                                    "name" : "L31.pdf",
+                                    "size" : 218075,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L4.docx",
+                                    "name" : "L4.docx",
+                                    "size" : 52415,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L41.pdf",
+                                    "name" : "L41.pdf",
+                                    "size" : 236850,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L5.docx",
+                                    "name" : "L5.docx",
+                                    "size" : 34265,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L51.pdf",
+                                    "name" : "L51.pdf",
+                                    "size" : 206227,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L6.docx",
+                                    "name" : "L6.docx",
+                                    "size" : 46461,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L61.pdf",
+                                    "name" : "L61.pdf",
+                                    "size" : 248799,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L7.docx",
+                                    "name" : "L7.docx",
+                                    "size" : 28681,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L71.pdf",
+                                    "name" : "L71.pdf",
+                                    "size" : 343102,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L8.docx",
+                                    "name" : "L8.docx",
+                                    "size" : 39426,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Лекции/L81.pdf",
+                                    "name" : "L81.pdf",
+                                    "size" : 234337,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 2479340,
+                            "type" : "directory"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика",
+                            "name" : "Практика",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/----Задание на практическое занятие 3.docx",
+                                    "name" : "----Задание на практическое занятие 3.docx",
+                                    "size" : 117513,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/----Задание на практическое занятие 5.docx",
+                                    "name" : "----Задание на практическое занятие 5.docx",
+                                    "size" : 28471,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/----Лабораторная работа 1 (1).docx",
+                                    "name" : "----Лабораторная работа 1 (1).docx",
+                                    "size" : 16502,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/----Практическая работа 1.docx",
+                                    "name" : "----Практическая работа 1.docx",
+                                    "size" : 16073,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/----Практическая работа 2.docx",
+                                    "name" : "----Практическая работа 2.docx",
+                                    "size" : 29601,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/Lab1.pdf",
+                                    "name" : "Lab1.pdf",
+                                    "size" : 180563,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/Lab2.pdf",
+                                    "name" : "Lab2.pdf",
+                                    "size" : 200277,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/Lab3.pdf",
+                                    "name" : "Lab3.pdf",
+                                    "size" : 209681,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/Pr1.pdf",
+                                    "name" : "Pr1.pdf",
+                                    "size" : 307433,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/Pr2.pdf",
+                                    "name" : "Pr2.pdf",
+                                    "size" : 251717,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/Pr3.pdf",
+                                    "name" : "Pr3.pdf",
+                                    "size" : 209648,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Практика/Лабораторная работа 4.docx",
+                                    "name" : "Лабораторная работа 4.docx",
+                                    "size" : 17134,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 1584613,
+                            "type" : "directory"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты",
+                            "name" : "Тесты",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_01.exe",
+                                    "name" : "test_01.exe",
+                                    "size" : 15360,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_02.exe",
+                                    "name" : "test_02.exe",
+                                    "size" : 13824,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_03.exe",
+                                    "name" : "test_03.exe",
+                                    "size" : 15360,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_04.exe",
+                                    "name" : "test_04.exe",
+                                    "size" : 14336,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_05.exe",
+                                    "name" : "test_05.exe",
+                                    "size" : 14336,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_06.exe",
+                                    "name" : "test_06.exe",
+                                    "size" : 14336,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_07.exe",
+                                    "name" : "test_07.exe",
+                                    "size" : 13824,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/test_08.exe",
+                                    "name" : "test_08.exe",
+                                    "size" : 14336,
+                                    "extension" : ".exe",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/Тест7.docx",
+                                    "name" : "Тест7.docx",
+                                    "size" : 13964,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Информационные сети/Тесты/Тест8.docx",
+                                    "name" : "Тест8.docx",
+                                    "size" : 12673,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 142349,
+                            "type" : "directory"
+                        }
+                    ],
+                    "size" : 14767587,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/КИС",
+                    "name" : "КИС",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/КИС/Лекции",
+                            "name" : "Лекции",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Лекции/1-Структура и классификация КИС..pdf",
+                                    "name" : "1-Структура и классификация КИС..pdf",
+                                    "size" : 227192,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Лекции/2-Модели MRP, MRPII, ERP, ASP..pdf",
+                                    "name" : "2-Модели MRP, MRPII, ERP, ASP..pdf",
+                                    "size" : 451074,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Лекции/3-Корпоративная сеть.pdf",
+                                    "name" : "3-Корпоративная сеть.pdf",
+                                    "size" : 437313,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Лекции/4-Создание клиент-серверных приложений в СУБД SQL Server..pdf",
+                                    "name" : "4-Создание клиент-серверных приложений в СУБД SQL Server..pdf",
+                                    "size" : 446954,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Лекции/5-Архитектура системы безопасности СУБД SQL Server 2000..pdf",
+                                    "name" : "5-Архитектура системы безопасности СУБД SQL Server 2000..pdf",
+                                    "size" : 472162,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Лекции/6-Технология OLAP..pdf",
+                                    "name" : "6-Технология OLAP..pdf",
+                                    "size" : 580882,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Лекции/7-Хранилище данных..pdf",
+                                    "name" : "7-Хранилище данных..pdf",
+                                    "size" : 398874,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 3014451,
+                            "type" : "directory"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/КИС/Практические работы",
+                            "name" : "Практические работы",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Практические работы/1-Создание модели корпоративной базы данных и хранилища данных.pdf",
+                                    "name" : "1-Создание модели корпоративной базы данных и хранилища данных.pdf",
+                                    "size" : 293872,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Практические работы/2-Заполнение хранилищ данных с помощью Data Transformation Services.pdf",
+                                    "name" : "2-Заполнение хранилищ данных с помощью Data Transformation Services.pdf",
+                                    "size" : 462892,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Практические работы/3-Создание многомерных баз данных.pdf",
+                                    "name" : "3-Создание многомерных баз данных.pdf",
+                                    "size" : 539753,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Практические работы/4-OLAP-клиенты.pdf",
+                                    "name" : "4-OLAP-клиенты.pdf",
+                                    "size" : 449663,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 1746180,
+                            "type" : "directory"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/КИС/Тесты",
+                            "name" : "Тесты",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/1.pdf",
+                                    "name" : "1.pdf",
+                                    "size" : 88258,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/10.pdf",
+                                    "name" : "10.pdf",
+                                    "size" : 114449,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/2.pdf",
+                                    "name" : "2.pdf",
+                                    "size" : 84185,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/3.pdf",
+                                    "name" : "3.pdf",
+                                    "size" : 65663,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/4.pdf",
+                                    "name" : "4.pdf",
+                                    "size" : 46634,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/5.pdf",
+                                    "name" : "5.pdf",
+                                    "size" : 47130,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/6.pdf",
+                                    "name" : "6.pdf",
+                                    "size" : 57894,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/7.pdf",
+                                    "name" : "7.pdf",
+                                    "size" : 115152,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/8.pdf",
+                                    "name" : "8.pdf",
+                                    "size" : 148267,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/КИС/Тесты/9.pdf",
+                                    "name" : "9.pdf",
+                                    "size" : 159218,
+                                    "extension" : ".pdf",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 926850,
+                            "type" : "directory"
+                        }
+                    ],
+                    "size" : 5687481,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/Корпоративные информационные системы",
+                    "name" : "Корпоративные информационные системы",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Корпоративные информационные системы/Лекция 1.docx",
+                            "name" : "Лекция 1.docx",
+                            "size" : 16693,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Корпоративные информационные системы/Лекция 2.docx",
+                            "name" : "Лекция 2.docx",
+                            "size" : 19180,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Корпоративные информационные системы/Лекция 3.docx",
+                            "name" : "Лекция 3.docx",
+                            "size" : 14976,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Корпоративные информационные системы/Лекция 4.docx",
+                            "name" : "Лекция 4.docx",
+                            "size" : 24036,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Корпоративные информационные системы/Лекция 5.docx",
+                            "name" : "Лекция 5.docx",
+                            "size" : 18372,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Корпоративные информационные системы/Лекция 6.docx",
+                            "name" : "Лекция 6.docx",
+                            "size" : 19164,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 112421,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/Линейная алгебра",
+                    "name" : "Линейная алгебра",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Линейная алгебра/TrAlg_1sem_VO_2016.pdf",
+                            "name" : "TrAlg_1sem_VO_2016.pdf",
+                            "size" : 706850,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Линейная алгебра/TrAlg_2sem_VO_2016.pdf",
+                            "name" : "TrAlg_2sem_VO_2016.pdf",
+                            "size" : 848339,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 1555189,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/Математический анализ",
+                    "name" : "Математический анализ",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Математический анализ/TrMa_1sem_VO_2016.pdf",
+                            "name" : "TrMa_1sem_VO_2016.pdf",
+                            "size" : 559274,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Математический анализ/TrMa_2sem_VO_2016.pdf",
+                            "name" : "TrMa_2sem_VO_2016.pdf",
+                            "size" : 690997,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 1250271,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/ООП",
+                    "name" : "ООП",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ООП/Лабораторная работа 1.docx",
+                            "name" : "Лабораторная работа 1.docx",
+                            "size" : 1297321,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ООП/Лабораторная работа 2.docx",
+                            "name" : "Лабораторная работа 2.docx",
+                            "size" : 229558,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ООП/Лабораторная работа 3.docx",
+                            "name" : "Лабораторная работа 3.docx",
+                            "size" : 82449,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ООП/Лабораторная работа 4.docx",
+                            "name" : "Лабораторная работа 4.docx",
+                            "size" : 117393,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ООП/Лабораторная работа 5.docx",
+                            "name" : "Лабораторная работа 5.docx",
+                            "size" : 129017,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ООП/Лабораторная работа 6.docx",
+                            "name" : "Лабораторная работа 6.docx",
+                            "size" : 34215,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/ООП/Лабораторная работа 7.docx",
+                            "name" : "Лабораторная работа 7.docx",
+                            "size" : 30278,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 1920231,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем",
+                    "name" : "Технология проектирования информационных систем",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 1.docx",
+                            "name" : "Лекция 1.docx",
+                            "size" : 28902,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 10.docx",
+                            "name" : "Лекция 10.docx",
+                            "size" : 25761,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 11.docx",
+                            "name" : "Лекция 11.docx",
+                            "size" : 47393,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 12.docx",
+                            "name" : "Лекция 12.docx",
+                            "size" : 58343,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 2.docx",
+                            "name" : "Лекция 2.docx",
+                            "size" : 29296,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 3.docx",
+                            "name" : "Лекция 3.docx",
+                            "size" : 21473,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 4.docx",
+                            "name" : "Лекция 4.docx",
+                            "size" : 28544,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 5.docx",
+                            "name" : "Лекция 5.docx",
+                            "size" : 23510,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 6.docx",
+                            "name" : "Лекция 6.docx",
+                            "size" : 28295,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 7.docx",
+                            "name" : "Лекция 7.docx",
+                            "size" : 32227,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 8.docx",
+                            "name" : "Лекция 8.docx",
+                            "size" : 27235,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Технология проектирования информационных систем/Лекция 9.docx",
+                            "name" : "Лекция 9.docx",
+                            "size" : 83654,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 434633,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/Физика",
+                    "name" : "Физика",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Физика/metodicheskie_ukazanija_k_oformleniju_raboti_i_raschetu_oshibok.pdf",
+                            "name" : "metodicheskie_ukazanija_k_oformleniju_raboti_i_raschetu_oshibok.pdf",
+                            "size" : 215307,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Физика/pristavki_si.pdf",
+                            "name" : "pristavki_si.pdf",
+                            "size" : 178753,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Физика/table_physics_constants.pdf",
+                            "name" : "table_physics_constants.pdf",
+                            "size" : 119060,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Физика/vvedenie_v_teoriju_izmereniy.pdf",
+                            "name" : "vvedenie_v_teoriju_izmereniy.pdf",
+                            "size" : 218119,
+                            "extension" : ".pdf",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 731239,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот",
+                    "name" : "Электронный документооборот",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Лекции",
+                            "name" : "Лекции",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Лекции/Лекция 1.docx",
+                                    "name" : "Лекция 1.docx",
+                                    "size" : 23258,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Лекции/Лекция 2.docx",
+                                    "name" : "Лекция 2.docx",
+                                    "size" : 22900,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Лекции/Лекция 3.docx",
+                                    "name" : "Лекция 3.docx",
+                                    "size" : 16580,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Лекции/Лекция 4.docx",
+                                    "name" : "Лекция 4.docx",
+                                    "size" : 16332,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Лекции/Лекция 5.docx",
+                                    "name" : "Лекция 5.docx",
+                                    "size" : 16206,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 95276,
+                            "type" : "directory"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Практические работы",
+                            "name" : "Практические работы",
+                            "children" : [
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Практические работы/Практическая работа 1.docx",
+                                    "name" : "Практическая работа 1.docx",
+                                    "size" : 14003,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Практические работы/Практическая работа 2.docx",
+                                    "name" : "Практическая работа 2.docx",
+                                    "size" : 14054,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Практические работы/Практическая работа 3.docx",
+                                    "name" : "Практическая работа 3.docx",
+                                    "size" : 15198,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Практические работы/Практическая работа 4.docx",
+                                    "name" : "Практическая работа 4.docx",
+                                    "size" : 14845,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                },
+                                {
+                                    "path" : "src/static/data/Документы/По предметам/Электронный документооборот/Практические работы/Практическая работа 5.docx",
+                                    "name" : "Практическая работа 5.docx",
+                                    "size" : 14124,
+                                    "extension" : ".docx",
+                                    "type" : "file"
+                                }
+                            ],
+                            "size" : 72224,
+                            "type" : "directory"
+                        }
+                    ],
+                    "size" : 167500,
+                    "type" : "directory"
+                }
+            ],
+            "size" : 31816209,
+            "type" : "directory"
+        },
+        {
+            "path" : "src/static/data/Документы/По семестрам",
+            "name" : "По семестрам",
+            "children" : [
+                {
+                    "path" : "src/static/data/Документы/По семестрам/ 3 семестр",
+                    "name" : " 3 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 3 семестр/Б1Б11 Структура и алгоритмы обработки данных (готово).docx",
+                            "name" : "Б1Б11 Структура и алгоритмы обработки данных (готово).docx",
+                            "size" : 110799,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 3 семестр/Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "name" : "Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "size" : 131072,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 241871,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По семестрам/ 7 семестр",
+                    "name" : " 7 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б1ВДВ11_1 Информац-поисковые системы (готово).doc",
+                            "name" : "Б1ВДВ11_1 Информац-поисковые системы (готово).doc",
+                            "size" : 210432,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б1ВДВ9_2 Мультиагентные информационные системы (готово).docx",
+                            "name" : "Б1ВДВ9_2 Мультиагентные информационные системы (готово).docx",
+                            "size" : 77207,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б1ВОД11 Мировые информационные ресурсы (готово).docx",
+                            "name" : "Б1ВОД11 Мировые информационные ресурсы (готово).docx",
+                            "size" : 89598,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б1ВОД12 Управление ИТ-проектами (готовое).docx",
+                            "name" : "Б1ВОД12 Управление ИТ-проектами (готовое).docx",
+                            "size" : 73170,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б1ВОД13 Безопасность функционирования информационных систем (готово).docx",
+                            "name" : "Б1ВОД13 Безопасность функционирования информационных систем (готово).docx",
+                            "size" : 64736,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б1ВОД14 Разработка программного обеспечения для корпоративных информационных систем (готово).doc",
+                            "name" : "Б1ВОД14 Разработка программного обеспечения для корпоративных информационных систем (готово).doc",
+                            "size" : 146944,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б1ВОД7 Проектирование информационных систем (готово).doc",
+                            "name" : "Б1ВОД7 Проектирование информационных систем (готово).doc",
+                            "size" : 135168,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/ 7 семестр/Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "name" : "Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "size" : 131072,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 928327,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По семестрам/1 семестр",
+                    "name" : "1 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/1 семестр/Б1ВОД1 Процедурное программирование (готово).docx",
+                            "name" : "Б1ВОД1 Процедурное программирование (готово).docx",
+                            "size" : 58645,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/1 семестр/Б1ВОД16 Программная инженерия для корпоративных информационных систем (готово).docx",
+                            "name" : "Б1ВОД16 Программная инженерия для корпоративных информационных систем (готово).docx",
+                            "size" : 90804,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 149449,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По семестрам/2 семестр",
+                    "name" : "2 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/2 семестр/Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "name" : "Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "size" : 131072,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 131072,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По семестрам/4 семестр",
+                    "name" : "4 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/4 семестр/Б1Б11 Структура и алгоритмы обработки данных (готово).docx",
+                            "name" : "Б1Б11 Структура и алгоритмы обработки данных (готово).docx",
+                            "size" : 110799,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/4 семестр/Б1Б19 Информационные системы и технологии (готово).docx",
+                            "name" : "Б1Б19 Информационные системы и технологии (готово).docx",
+                            "size" : 56128,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/4 семестр/Б1ВДВ8_1 Открытые информационные системы (готово).doc",
+                            "name" : "Б1ВДВ8_1 Открытые информационные системы (готово).doc",
+                            "size" : 197120,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/4 семестр/Б1ВДВ8_2 Методы функциональной стандартизации (готово).doc",
+                            "name" : "Б1ВДВ8_2 Методы функциональной стандартизации (готово).doc",
+                            "size" : 194048,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/4 семестр/Б1ВОД15 Качество, стандартизация и сертификация информационных систем (готово).doc",
+                            "name" : "Б1ВОД15 Качество, стандартизация и сертификация информационных систем (готово).doc",
+                            "size" : 215040,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/4 семестр/Б1ВОД3 Разработка программных приложений (готово).docx",
+                            "name" : "Б1ВОД3 Разработка программных приложений (готово).docx",
+                            "size" : 60633,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/4 семестр/Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "name" : "Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "size" : 131072,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 964840,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По семестрам/5 семестр",
+                    "name" : "5 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1Б19 Информационные системы и технологии (готово).docx",
+                            "name" : "Б1Б19 Информационные системы и технологии (готово).docx",
+                            "size" : 56128,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВДВ10_1 Сопровождение информационных систем (готово).docx",
+                            "name" : "Б1ВДВ10_1 Сопровождение информационных систем (готово).docx",
+                            "size" : 73993,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВДВ11_2 Математические методы в информационных технологиях (готово).docx",
+                            "name" : "Б1ВДВ11_2 Математические методы в информационных технологиях (готово).docx",
+                            "size" : 81707,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВДВ4_1 Корпоративные информационные системы (готово).docx",
+                            "name" : "Б1ВДВ4_1 Корпоративные информационные системы (готово).docx",
+                            "size" : 85323,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВДВ4_2 Интерфейсы информационных систем (готово).docx",
+                            "name" : "Б1ВДВ4_2 Интерфейсы информационных систем (готово).docx",
+                            "size" : 61756,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВДВ5_1 Оценка качества информационных систем (готово).docx",
+                            "name" : "Б1ВДВ5_1 Оценка качества информационных систем (готово).docx",
+                            "size" : 52812,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВДВ5_2 Сертификация информационных систем (готово).docx",
+                            "name" : "Б1ВДВ5_2 Сертификация информационных систем (готово).docx",
+                            "size" : 73636,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВДВ6_2 Математические основы защиты информации (готово).docx",
+                            "name" : "Б1ВДВ6_2 Математические основы защиты информации (готово).docx",
+                            "size" : 81754,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б1ВОД4 Разработка клиент-серверных приложений (готово).docx",
+                            "name" : "Б1ВОД4 Разработка клиент-серверных приложений (готово).docx",
+                            "size" : 55611,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/5 семестр/Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "name" : "Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "size" : 131072,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 753792,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По семестрам/6 семестр",
+                    "name" : "6 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1Б10 Анализ сложности алгоритмов (готово).docx",
+                            "name" : "Б1Б10 Анализ сложности алгоритмов (готово).docx",
+                            "size" : 45995,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1ВДВ6_1 Информационная безопасность и защита информации (готово).doc",
+                            "name" : "Б1ВДВ6_1 Информационная безопасность и защита информации (готово).doc",
+                            "size" : 249344,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1ВДВ7_1 Технологии визуализации информации (готово).docx",
+                            "name" : "Б1ВДВ7_1 Технологии визуализации информации (готово).docx",
+                            "size" : 59222,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1ВДВ7_2 Проектирование графических моделей (готово).docx",
+                            "name" : "Б1ВДВ7_2 Проектирование графических моделей (готово).docx",
+                            "size" : 57981,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1ВДВ9_1 Системы электронного документооборота (готово).docx",
+                            "name" : "Б1ВДВ9_1 Системы электронного документооборота (готово).docx",
+                            "size" : 47706,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1ВОД10 Интеллектуальные системы и технологии (готово).docx",
+                            "name" : "Б1ВОД10 Интеллектуальные системы и технологии (готово).docx",
+                            "size" : 81854,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1ВОД8 Теория систем и системный анализ (готово).docx",
+                            "name" : "Б1ВОД8 Теория систем и системный анализ (готово).docx",
+                            "size" : 58368,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б1ВОД9 Моделирование систем (готово).doc",
+                            "name" : "Б1ВОД9 Моделирование систем (готово).doc",
+                            "size" : 250368,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/6 семестр/Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "name" : "Б2П1 Практика по получению профессиональных умений и опыта профессиональной деятельности (готово).doc",
+                            "size" : 131072,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 981910,
+                    "type" : "directory"
+                },
+                {
+                    "path" : "src/static/data/Документы/По семестрам/8 семестр",
+                    "name" : "8 семестр",
+                    "children" : [
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/8 семестр/Б1ВДВ10_2 Менеджмент информационных систем (готово).docx",
+                            "name" : "Б1ВДВ10_2 Менеджмент информационных систем (готово).docx",
+                            "size" : 82378,
+                            "extension" : ".docx",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/8 семестр/Б2Г1 Государственный экзамен (готово).doc",
+                            "name" : "Б2Г1 Государственный экзамен (готово).doc",
+                            "size" : 230912,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/8 семестр/Б2Д1 Выпускная квалификационная работа (готово).doc",
+                            "name" : "Б2Д1 Выпускная квалификационная работа (готово).doc",
+                            "size" : 217600,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        },
+                        {
+                            "path" : "src/static/data/Документы/По семестрам/8 семестр/Б2П2 Преддипломная практика(готово).doc",
+                            "name" : "Б2П2 Преддипломная практика(готово).doc",
+                            "size" : 103424,
+                            "extension" : ".doc",
+                            "type" : "file"
+                        }
+                    ],
+                    "size" : 634314,
+                    "type" : "directory"
+                }
+            ],
+            "size" : 4785575,
+            "type" : "directory"
+        }
+    ],
+    "size" : 36601784,
+    "type" : "directory"
+}

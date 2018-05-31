@@ -1,10 +1,12 @@
 import $ from "jquery";
 import viewport from "get-viewport-size";
+
 import "../views/index.pug";
 import "../styles/main.styl";
 import "./static-init";
 
 import j from "./jquery-constants";
+import { getTree } from "./tree";
 
 j.headerElement.on("click", function() {
 	const currentTabIndex = $(this).data("tab");
@@ -44,3 +46,5 @@ $(".dropdown-menu-header").bind("click", function() {
 		return false;
 	}
 });
+
+getTree()
